@@ -1,0 +1,6 @@
+---
+- name: example playbook
+  hosts: all
+  tasks:
+    - name: example tasks
+      command: ls -l
